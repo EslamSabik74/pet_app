@@ -130,12 +130,15 @@ class homeScreen extends StatelessWidget {
                         )),
                     Spacer(),
                     TextButton(
-                        onPressed: () {},
-                        child: const Text('See all',
-                            style: TextStyle(
-                                color: Colors.orange,
-                                fontSize: 15,
-                                fontWeight: FontWeight.bold)))
+                      onPressed: () {},
+                      child: const Text(
+                        'See all',
+                        style: TextStyle(
+                            color: Colors.orange,
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold),
+                      ),
+                    ),
                   ],
                 ),
                 SizedBox(height: 5),
@@ -199,12 +202,15 @@ class homeScreen extends StatelessWidget {
                         )),
                     Spacer(),
                     TextButton(
-                        onPressed: () {},
-                        child: const Text('See all',
-                            style: TextStyle(
-                                color: Colors.orange,
-                                fontSize: 15,
-                                fontWeight: FontWeight.bold)))
+                      onPressed: () {},
+                      child: const Text(
+                        'See all',
+                        style: TextStyle(
+                            color: Colors.orange,
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold),
+                      ),
+                    ),
                   ],
                 ),
                 Container(
@@ -232,11 +238,13 @@ class homeScreen extends StatelessWidget {
                                       image: AssetImage('${images2[index]}'),
                                     ),
                                     SizedBox(width: 20),
-                                    Text('${names[index]}',
-                                        style: const TextStyle(
-                                          fontSize: 20,
-                                          fontWeight: FontWeight.bold,
-                                        ))
+                                    Text(
+                                      '${names[index]}',
+                                      style: const TextStyle(
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    )
                                   ],
                                 ),
                               ),

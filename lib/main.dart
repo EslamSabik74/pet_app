@@ -8,7 +8,7 @@ import 'account.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: shop_page(),
+      home: Explore_page(),
     ),
   );
 }
